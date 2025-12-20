@@ -1,0 +1,58 @@
+[
+  {
+    "name": "api-with-examples",
+    "openapi_url": "https://raw.githubusercontent.com/OAI/learn.openapis.org/refs/heads/main/examples/v3.0/api-with-examples.json",
+    "backend_base_url": "https://api.example.com",
+    "prefix": "/api-examples",
+    "enabled": true,
+    "auth": {
+      "type": "none"
+    },
+    "propagate_security": true
+  },
+  {
+    "name": "uspto",
+    "openapi_url": "https://raw.githubusercontent.com/OAI/learn.openapis.org/refs/heads/main/examples/v3.0/uspto.json",
+    "backend_base_url": "https://developer.uspto.gov/ds-api",
+    "prefix": "/uspto",
+    "enabled": true,
+    "auth": {
+      "type": "none"
+    },
+    "propagate_security": true
+  },
+  {
+    "name": "petstore",
+    "openapi_url": "https://petstore.swagger.io/v2/swagger.json",
+    "backend_base_url": "https://petstore.swagger.io/v2",
+    "prefix": "/petstore",
+    "enabled": true,
+    "auth": {
+      "type": "none"
+    },
+    "propagate_security": true
+  },
+  {
+    "name": "link-example",
+    "openapi_url": "https://raw.githubusercontent.com/OAI/learn.openapis.org/refs/heads/main/examples/v3.0/link-example.json",
+    "backend_base_url": "https://api.example.com",
+    "prefix": "/link-example",
+    "enabled": true,
+    "auth": {
+      "type": "none"
+    },
+    "propagate_security": true
+  },
+  {
+    "name": "callback-example",
+    "openapi_url": "https://raw.githubusercontent.com/OAI/learn.openapis.org/refs/heads/main/examples/v3.0/callback-example.json",
+    "backend_base_url": "https://api.example.com",
+    "prefix": "/callback-example",
+    "enabled": true,
+    "auth": {
+      "type": "none"
+    },
+    "propagate_security": true
+  }
+]
+

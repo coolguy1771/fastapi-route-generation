@@ -1,0 +1,19 @@
+[project]
+name = "fastapi-route-generation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.125.0",
+    "httpx>=0.28.0",
+    "pydantic-settings>=2.0.0",
+    "joserfc>=1.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.10",
+    "ty>=0.0.4",
+]
+
